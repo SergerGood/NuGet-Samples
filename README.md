@@ -1,4 +1,4 @@
-﻿Create nispec file:
+﻿Create nuspec file:
 <blockquote>nuget.exe spec</blockquote>
 
 Create nupkg file:
