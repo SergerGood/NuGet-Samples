@@ -3,3 +3,7 @@
 ################################################################################
 
 /AppLogger/bin
+/AppLogger/obj
+/WindowsRuntimeComponent/obj/Debug
+/WindowsRuntimeComponent/bin/Debug
+/packages
