@@ -9,7 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		readme.md = readme.md
 		AppLogger\SergerGoodSample.1.0.0.nupkg = AppLogger\SergerGoodSample.1.0.0.nupkg
+		WindowsRuntimeComponent\WindowsRuntimeComponent.1.0.0.nupkg = WindowsRuntimeComponent\WindowsRuntimeComponent.1.0.0.nupkg
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsRuntimeComponent", "WindowsRuntimeComponent\WindowsRuntimeComponent.csproj", "{1532E1AF-FD2F-44A6-8411-CA6FF11A68A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +42,22 @@ Global
 		{B7AE7FAC-3F5F-48DC-9F3A-2E52EEE23642}.Release|x64.Build.0 = Release|Any CPU
 		{B7AE7FAC-3F5F-48DC-9F3A-2E52EEE23642}.Release|x86.ActiveCfg = Release|Any CPU
 		{B7AE7FAC-3F5F-48DC-9F3A-2E52EEE23642}.Release|x86.Build.0 = Release|Any CPU
+		{1532E1AF-FD2F-44A6-8411-CA6FF11A68A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1532E1AF-FD2F-44A6-8411-CA6FF11A68A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1532E1AF-FD2F-44A6-8411-CA6FF11A68A5}.Debug|ARM.ActiveCfg = Debug|ARM
+		{1532E1AF-FD2F-44A6-8411-CA6FF11A68A5}.Debug|ARM.Build.0 = Debug|ARM
+		{1532E1AF-FD2F-44A6-8411-CA6FF11A68A5}.Debug|x64.ActiveCfg = Debug|x64
+		{1532E1AF-FD2F-44A6-8411-CA6FF11A68A5}.Debug|x64.Build.0 = Debug|x64
+		{1532E1AF-FD2F-44A6-8411-CA6FF11A68A5}.Debug|x86.ActiveCfg = Debug|x86
+		{1532E1AF-FD2F-44A6-8411-CA6FF11A68A5}.Debug|x86.Build.0 = Debug|x86
+		{1532E1AF-FD2F-44A6-8411-CA6FF11A68A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1532E1AF-FD2F-44A6-8411-CA6FF11A68A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1532E1AF-FD2F-44A6-8411-CA6FF11A68A5}.Release|ARM.ActiveCfg = Release|ARM
+		{1532E1AF-FD2F-44A6-8411-CA6FF11A68A5}.Release|ARM.Build.0 = Release|ARM
+		{1532E1AF-FD2F-44A6-8411-CA6FF11A68A5}.Release|x64.ActiveCfg = Release|x64
+		{1532E1AF-FD2F-44A6-8411-CA6FF11A68A5}.Release|x64.Build.0 = Release|x64
+		{1532E1AF-FD2F-44A6-8411-CA6FF11A68A5}.Release|x86.ActiveCfg = Release|x86
+		{1532E1AF-FD2F-44A6-8411-CA6FF11A68A5}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

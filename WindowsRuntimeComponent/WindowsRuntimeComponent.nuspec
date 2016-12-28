@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SergerGoodWRC</id>
+    <version>$version$</version>
+    <title>SergerGoodWRC</title>
+    <authors>SergerGood</authors>
+    <owners>SergerGood</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>Tag1 Tag2</tags>
+  </metadata>
+
+  <files>
+    <!-- WinMd and IntelliSense files -->
+    <file src="..\Debug\WindowsRuntimeComponent.winmd" target="lib\uap10.0"/>
+    <file src="..\Debug\WindowsRuntimeComponent.xml" target="lib\uap10.0"/>
+
+    <!-- XAML controls -->
+    <file src="Themes\Generic.xaml" target="lib\uap10.0\Themes"/>
+
+    <!-- DLLs and resources -->
+    <file src="..\ARM\Debug\WindowsRuntimeComponent.dll" target="runtimes\win10-arm\native"/>
+    <file src="..\ARM\Debug\WindowsRuntimeComponent.pri" target="runtimes\win10-arm\native"/>
+
+    <file src="..\x64\Debug\WindowsRuntimeComponent.dll" target="runtimes\win10-x64\native"/>
+    <file src="..\x64\Debug\WindowsRuntimeComponent.pri" target="runtimes\win10-x64\native"/>
+
+    <file src="..\Debug\WindowsRuntimeComponent.dll" target="runtimes\win10-x86\native"/>
+    <file src="..\Debug\WindowsRuntimeComponent.pri" target="runtimes\win10-x86\native"/>
+
+    <!-- .targets -->
+    <!--<file src="ImageEnhancer.targets" target="build\native"/>-->
+
+
+  </files>
+</package>
