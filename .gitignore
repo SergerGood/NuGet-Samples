@@ -7,3 +7,5 @@
 /WindowsRuntimeComponent/obj/Debug
 /WindowsRuntimeComponent/bin/Debug
 /packages
+/ClassLibrary/bin
+/ClassLibrary/obj

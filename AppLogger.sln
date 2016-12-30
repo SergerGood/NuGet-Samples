@@ -8,11 +8,14 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F51DC14E-560A-46C5-B0CB-2A6A8FD9D820}"
 	ProjectSection(SolutionItems) = preProject
 		readme.md = readme.md
+		ClassLibrary\bin\Debug\SergerGoodNetStandard.Sample.1.0.0.nupkg = ClassLibrary\bin\Debug\SergerGoodNetStandard.Sample.1.0.0.nupkg
 		AppLogger\SergerGoodSample.1.0.0.nupkg = AppLogger\SergerGoodSample.1.0.0.nupkg
 		WindowsRuntimeComponent\WindowsRuntimeComponent.1.0.0.nupkg = WindowsRuntimeComponent\WindowsRuntimeComponent.1.0.0.nupkg
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsRuntimeComponent", "WindowsRuntimeComponent\WindowsRuntimeComponent.csproj", "{1532E1AF-FD2F-44A6-8411-CA6FF11A68A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{C137FFA7-EE4B-4C01-B749-3205AC3232C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -58,6 +61,22 @@ Global
 		{1532E1AF-FD2F-44A6-8411-CA6FF11A68A5}.Release|x64.Build.0 = Release|x64
 		{1532E1AF-FD2F-44A6-8411-CA6FF11A68A5}.Release|x86.ActiveCfg = Release|x86
 		{1532E1AF-FD2F-44A6-8411-CA6FF11A68A5}.Release|x86.Build.0 = Release|x86
+		{C137FFA7-EE4B-4C01-B749-3205AC3232C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C137FFA7-EE4B-4C01-B749-3205AC3232C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C137FFA7-EE4B-4C01-B749-3205AC3232C7}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{C137FFA7-EE4B-4C01-B749-3205AC3232C7}.Debug|ARM.Build.0 = Debug|Any CPU
+		{C137FFA7-EE4B-4C01-B749-3205AC3232C7}.Debug|x64.ActiveCfg = Debug|x64
+		{C137FFA7-EE4B-4C01-B749-3205AC3232C7}.Debug|x64.Build.0 = Debug|x64
+		{C137FFA7-EE4B-4C01-B749-3205AC3232C7}.Debug|x86.ActiveCfg = Debug|x86
+		{C137FFA7-EE4B-4C01-B749-3205AC3232C7}.Debug|x86.Build.0 = Debug|x86
+		{C137FFA7-EE4B-4C01-B749-3205AC3232C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C137FFA7-EE4B-4C01-B749-3205AC3232C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C137FFA7-EE4B-4C01-B749-3205AC3232C7}.Release|ARM.ActiveCfg = Release|Any CPU
+		{C137FFA7-EE4B-4C01-B749-3205AC3232C7}.Release|ARM.Build.0 = Release|Any CPU
+		{C137FFA7-EE4B-4C01-B749-3205AC3232C7}.Release|x64.ActiveCfg = Release|x64
+		{C137FFA7-EE4B-4C01-B749-3205AC3232C7}.Release|x64.Build.0 = Release|x64
+		{C137FFA7-EE4B-4C01-B749-3205AC3232C7}.Release|x86.ActiveCfg = Release|x86
+		{C137FFA7-EE4B-4C01-B749-3205AC3232C7}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
