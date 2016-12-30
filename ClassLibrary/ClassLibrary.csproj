@@ -1,17 +1,30 @@
-﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
+<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
   <PropertyGroup Label="Configuration">
-    <DocumentationFile>bin\Debug\netstandard1.6\ClassLibrary.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\netstandard1.6\ClassLibrary.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup>
     <TargetFramework>netstandard1.6</TargetFramework>
+    <!-- The identifier that must be unique within the hosting gallery -->
     <PackageId>SergerGoodNetStandard.Sample</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <!-- The package version number that is used when resolving dependencies -->
+    <PackageVersion>1.0.2</PackageVersion>
+    <!-- Authors contain text that appears directly on the gallery -->
     <Authors>SergerGood</Authors>
-    <Description>Awesome application logging utility</Description>
+    <!-- License and project URLs provide links for the gallery -->
+    <PackageLicenseUrl>http://opensource.org/licenses/MS-PL</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/SergerGood/NuGet-Samples/tree/master/ClassLibrary</PackageProjectUrl>
+    <!-- The icon is used in Visual Studio's package manager UI -->
+    <PackageIconUrl>https://github.com/SergerGood/NuGet-Samples/tree/master/ClassLibrary</PackageIconUrl>
+    <!-- If true, this value prompts the user to accept the license when installing the package. -->
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <PackageReleaseNotes>First release</PackageReleaseNotes>
-    <Copyright>Copyright 2016 (c) Contoso Corporation. All rights reserved.</Copyright>
-    <PackageTags>logger logging logs</PackageTags>
+    <!-- Any details about this particular release -->
+    <PackageReleaseNotes>Bug fixes</PackageReleaseNotes>
+    <!-- The description can be used in package manager UI. Note that the nuget.org gallery uses information you add in the portal. -->
+    <Description>Sample NetStandart Package</Description>
+    <!-- Copyright information -->
+    <Copyright>Copyright ©2016 SergerGood Corporation. All rights reserved.</Copyright>
+    <!-- Tags appear in the gallery and can be used for tag searches -->
+    <PackageTags>net standart</PackageTags>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <OutputType>library</OutputType>

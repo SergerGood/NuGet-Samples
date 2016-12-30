@@ -11,4 +11,4 @@ Update Nuget:
 <blockquote>nuget.exe update -self</blockquote>
 
 NuGet 4.0:
-<blockquote>msbuild /t:pack /p:Configuration=Release</blockquote>
+<blockquote>msbuild "*.csproj" /t:pack /p:Configuration=Release</blockquote>
