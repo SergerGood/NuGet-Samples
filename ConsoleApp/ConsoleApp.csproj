@@ -9,6 +9,5 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NETCore.App" Version="1.0.1" />
-    <PackageReference Include="SergerGoodNetStandard.Sample" Version="1.0.6" />
   </ItemGroup>
 </Project>

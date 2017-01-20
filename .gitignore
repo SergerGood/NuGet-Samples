@@ -15,3 +15,5 @@
 /WindowsRuntimeComponent/obj/Release
 /WindowsRuntimeComponent/bin/Release
 *.nupkg
+/AppLogger.Console/bin/Debug
+/AppLogger.Console/obj

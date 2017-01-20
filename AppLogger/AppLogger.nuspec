@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>SergerGood.AppLoger.Sample</id>
-    <version>$version$</version>
+    <version>1.0.3-rc</version>
     <title>SergerGood.AppLoger.Sample</title>
     <authors>SergerGood</authors>
     <owners>SergerGood</owners>
@@ -23,6 +23,7 @@
 
   <files>
     <file src="readme.txt" target="" />
+    <!--<file src="lib\**" target="lib" />-->
   </files>
 
 </package>
