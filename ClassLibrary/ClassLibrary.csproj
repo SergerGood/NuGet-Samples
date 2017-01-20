@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
+﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
   <Target Name="CopyPackage" AfterTargets="Pack">
     <Copy SourceFiles="$(ProjectDir)bin\$(Configuration)\$(PackageId).$(PackageVersion).nupkg" DestinationFolder="$(ProjectDir)..\" />
   </Target>
@@ -7,7 +7,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
   </PropertyGroup>
   <PropertyGroup>
-    <TargetFramework>netstandard1.6</TargetFramework>
+    <TargetFramework>netstandard1.4</TargetFramework>
     <PackageId>SergerGoodNetStandard.Sample</PackageId>
     <PackageVersion>1.0.7</PackageVersion>
     <Authors>SergerGood</Authors>
