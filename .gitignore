@@ -14,3 +14,4 @@
 /ConsoleApp/bin/Release/netcoreapp1.0
 /WindowsRuntimeComponent/obj/Release
 /WindowsRuntimeComponent/bin/Release
+*.nupkg

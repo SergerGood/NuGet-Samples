@@ -1,4 +1,7 @@
-﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
+<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
+  <Target Name="CopyPackage" AfterTargets="Pack">
+    <Copy SourceFiles="$(ProjectDir)bin\$(Configuration)\$(PackageId).$(PackageVersion).nupkg" DestinationFolder="$(ProjectDir)..\" />
+  </Target>
   <PropertyGroup Label="Configuration">
     <DocumentationFile>bin\Release\netstandard1.6\ClassLibrary.xml</DocumentationFile>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -6,7 +9,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.6</TargetFramework>
     <PackageId>SergerGoodNetStandard.Sample</PackageId>
-    <PackageVersion>1.0.6</PackageVersion>
+    <PackageVersion>1.0.7</PackageVersion>
     <Authors>SergerGood</Authors>
     <PackageLicenseUrl>http://opensource.org/licenses/MS-PL</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/SergerGood/NuGet-Samples/tree/master/ClassLibrary</PackageProjectUrl>
