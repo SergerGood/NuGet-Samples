@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>SergerGood.AppLoger.Sample</id>
-    <version>1.0.3-rc</version>
+    <version>1.0.4</version>
     <title>SergerGood.AppLoger.Sample</title>
     <authors>SergerGood</authors>
     <owners>SergerGood</owners>
@@ -16,7 +16,9 @@
     <iconUrl>https://github.com/SergerGood/NuGet-Samples/tree/master/ClassLibrary</iconUrl>
 
     <dependencies>
-      <dependency id="Newtonsoft.Json" version="9.0.1" />
+      <group targetFramework=".NETFramework4.5" >
+        <dependency id="Newtonsoft.Json" version="9.0.1" />
+      </group>
     </dependencies>
 
   </metadata>
